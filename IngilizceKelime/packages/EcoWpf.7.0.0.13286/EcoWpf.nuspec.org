@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EcoWpf</id>
+    <version>#VERSION#</version>
+    <title>MDriven Framework Wpf</title>
+    <authors>MDriven AB</authors>
+    <owners>MDriven AB</owners>
+    <licenseUrl>https://wiki.mdriven.net/index.php/NugetLicense</licenseUrl>
+    <projectUrl>https://wiki.mdriven.net/index.php/NugetProject</projectUrl>
+    <iconUrl>http://www.capableobjects.com/Eco7Icon</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>https://wiki.mdriven.net/index.php/NugetProject</description>
+    <releaseNotes>Continued work details at https://wiki.mdriven.net/index.php/NugetProject</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>MDriven Framework ModelDrivenDevelopment</tags>
+    <dependencies>
+      <group>
+        <dependency id="EcoCore" version="#VERSION#" />
+      </group>
+    </dependencies>
+  </metadata>
+
+</package>
