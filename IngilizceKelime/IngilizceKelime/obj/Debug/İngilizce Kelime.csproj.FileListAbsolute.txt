@@ -1,0 +1,306 @@
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.Licensing.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.Form1.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\İngilizce Kelime.csproj.GenerateResource.cache
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\İngilizce Kelime.csproj.CoreCompileInputs.cache
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\İngilizce Kelime.csproj.CopyComplete
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\EntityFramework.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\System.Data.SQLite.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\EntityFramework.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\System.Data.SQLite.xml
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.ErrorMessageBox.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.SuccessMessageBox.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\MetroFramework.Design.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\MetroFramework.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Eco.Handles.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Eco.Interfaces.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Eco.LinqExtender.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Eco.WPF.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\WECPOFLogic.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\WPFViewModelExternalControls.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\System.Buffers.dll
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.askQuestion.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.AddGroupForm.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Wifi_Passwords.SetNickNameForm.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\cursors\cursor.ico
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Ingilizce Kelime.exe.config
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Ingilizce Kelime.exe
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\bin\Debug\Ingilizce Kelime.pdb
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Ingilizce_Kelime.Properties.Resources.resources
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Ingilizce Kelime.exe.licenses
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Ingilizce Kelime.exe
+C:\Users\BERKAY\source\repos\Wifi Passwords\Wifi Passwords\obj\Debug\Ingilizce Kelime.pdb
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\cursors\cursor.ico
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.exe.config
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.exe
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.pdb
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Licensing.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.Handles.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.Interfaces.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.LinqExtender.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.WPF.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.Design.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\WECPOFLogic.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\WPFViewModelExternalControls.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\System.Buffers.dll
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.xml
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce_Kelime.Properties.Resources.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.GenerateResource.cache
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.exe.licenses
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.CoreCompileInputs.cache
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.CopyComplete
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.exe
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.pdb
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csprojAssemblyReference.cache
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.AddGroupForm.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.askQuestion.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.ErrorMessageBox.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.Form1.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.SetNickNameForm.resources
+C:\Users\BERKAY\source\repos\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.SuccessMessageBox.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.exe
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.pdb
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.AssemblyReference.cache
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.AddGroupForm.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.askQuestion.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.ErrorMessageBox.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.Form1.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce_Kelime.Properties.Resources.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.SetNickNameForm.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.SuccessMessageBox.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.GenerateResource.cache
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\Ingilizce Kelime.exe.licenses
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.CoreCompileInputs.cache
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\cursors\cursor.ico
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.exe.config
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.exe
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Ingilizce Kelime.pdb
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Dataviz.WinForms.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Licensing.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.Handles.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.Interfaces.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.LinqExtender.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Eco.WPF.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.Design.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\WECPOFLogic.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\WPFViewModelExternalControls.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Buffers.dll
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.Dataviz.WinForms.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.xml
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.CopyComplete
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.DeveloperForm.resources
