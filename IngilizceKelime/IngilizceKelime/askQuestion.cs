@@ -88,7 +88,7 @@ namespace IngilizceKelime
                     }
 
 
-                    Thread.Sleep(2000); //Buraya Minute gelecek
+                    Thread.Sleep(Minute); //Buraya Minute gelecek
 
                     ask.ShowDialog();
                     
@@ -172,7 +172,7 @@ namespace IngilizceKelime
                     }
 
 
-                    Thread.Sleep(2000); //Buraya Minute gelecek
+                    Thread.Sleep(Minute); //Buraya Minute gelecek
 
                     ask.ShowDialog();
 
@@ -259,7 +259,7 @@ namespace IngilizceKelime
                     }
 
 
-                    Thread.Sleep(2000); //Buraya Minute gelecek
+                    Thread.Sleep(Minute); //Buraya Minute gelecek
 
                     ask.ShowDialog();
 
@@ -345,7 +345,7 @@ namespace IngilizceKelime
                     }
 
 
-                    Thread.Sleep(2000); //Buraya Minute gelecek
+                    Thread.Sleep(Minute); //Buraya Minute gelecek
 
                     ask.ShowDialog();
 

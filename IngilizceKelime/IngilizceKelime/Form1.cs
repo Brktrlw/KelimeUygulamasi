@@ -274,23 +274,35 @@ namespace IngilizceKelime
         private void btn_setRight_Click(object sender, EventArgs e)
         {
             //kelimenin durumunu öğrenildi olarak değiştirdiğimiz fonksiyon
+            if (table_words4.SelectedRows.Count == 0)
+            {
+                errorMessageBox.ErrorMessage("Lütfen tablodan bir kelime seçiniz.");
+            }
+            else { 
             string wordID = table_words4.SelectedRows[0].Cells[0].Value + string.Empty;
             DatabaseManager.updateWordsState(wordID, "Öğrenildi");
             successMessageBox.SuccessMessage("Kelime başarıyla güncellenmiştir");
             UpdateAll();
+            }
         }
         private void btn_setWrong_Click(object sender, EventArgs e)
         {
             //kelimenin durumunu öğrenilmedi olarak değiştirdiğimiz fonksiyon
-            string wordID = table_words4.SelectedRows[0].Cells[0].Value + string.Empty;
-            DatabaseManager.updateWordsState(wordID, "Öğrenilmedi");
-            successMessageBox.SuccessMessage("Kelime başarıyla güncellenmiştir");
-            UpdateAll();
+            if (table_words4.SelectedRows.Count == 0)
+            {
+                errorMessageBox.ErrorMessage("Lütfen tablodan bir kelime seçiniz.");
+            }
+            else { 
+                string wordID = table_words4.SelectedRows[0].Cells[0].Value + string.Empty;
+                DatabaseManager.updateWordsState(wordID, "Öğrenilmedi");
+                successMessageBox.SuccessMessage("Kelime başarıyla güncellenmiştir");
+                UpdateAll();
+            }
         }
         private void btn_saveSettings_Click(object sender, EventArgs e)
         {
             //ayarları kayıt ederken calıstırdıgımız fonksiyon
-            if (txt_userName.Text.All(c => Char.IsLetter(c)) == false)
+            if (txt_userName.Text.Trim().Replace(" ","").All(c => Char.IsLetter(c)) == false)
             {
                 txt_userName.Text = String.Empty;
                 errorMessageBox.ErrorMessage("Özel karakter kullanmayınız.Sadece harfleri kullanınız.");
