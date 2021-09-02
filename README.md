@@ -53,7 +53,8 @@
 ## Program-Hakkında
 
 **WoW, bilgisayar başında uzun vakit geçirirken bir yandan ingilizce kelimeleri öğrenmenizi sağlayan bir uygulamadır.Programda bir çok farklı opsiyon bulunup seçeceğiniz koşullara göre size belirli dakikalarda rastgele kelimeleri sorup bilinçaltınızda öğrenmenizi sağlar.**
-https://www.youtube.com/watch?v=9j9Dna0iwNc
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=9j9Dna0iwNc)
 <br>
 `BrktrLawliet`,
 `brktrl@protonmail.ch`
