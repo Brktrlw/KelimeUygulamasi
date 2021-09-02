@@ -44,7 +44,7 @@
     </li>
     <li><a href="#Kullanım">Kullanış</a></li>
     <li><a href="#Desteklediği-İşletim-Sistemleri">Desteklediği İşletim Sistemleri</a>
-    <li><a href="Images">Örnek Resimler</a>
+    <li><a href="Görseller">Örnek Resimler</a>
     <li><a href="#lisans">Lisans</a></li>
     <li><a href="#Iletisim">İletişim</a></li>
   </ol>
