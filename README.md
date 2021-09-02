@@ -68,7 +68,9 @@
 
 Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kurmanız yeterli olacaktır.
 
-
+<video width="320" height="240" controls>
+  <source src="images/Video.mp4" type="video/mp4">
+</video>
 ### Kurulum
 1. Adım
 `Setup Dosyasını indiriniz.`
