@@ -82,7 +82,7 @@ Kurma işlemini gerçekleştirdikten sonra soldaki tüm sekmelerin içerisinde y
 ## Desteklediği-İşletim-Sistemleri
 * Windows
 
-## Images
+## Görseller
 Programın arayüzünden örnek görseller.
 <img src="images/Picture1.PNG"></img><br>
 <img src="images/Picture1.PNG"></img><br>
