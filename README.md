@@ -84,6 +84,7 @@ Kurma işlemini gerçekleştirdikten sonra soldaki tüm sekmelerin içerisinde y
 
 ## Görseller
 Programın arayüzünden örnek görseller.
+<br>
 <img src="images/Picture1.PNG"></img><br>
 <img src="images/Picture2.PNG"></img><br>
 <img src="images/Picture3.PNG"></img><br>
