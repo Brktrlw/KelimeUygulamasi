@@ -53,7 +53,9 @@
 ## Program-Hakkında
 
 **WoW, bilgisayar başında uzun vakit geçirirken bir yandan ingilizce kelimeleri öğrenmenizi sağlayan bir uygulamadır.Programda bir çok farklı opsiyon bulunup seçeceğiniz koşullara göre size belirli dakikalarda rastgele kelimeleri sorup bilinçaltınızda öğrenmenizi sağlar.**
-
+<video controls>
+  <source src="/images/Video.mp4" type="video/mp4">
+</video>
 `BrktrLawliet`,
 `brktrl@protonmail.ch`
 `Word Of World`
@@ -68,9 +70,7 @@
 
 Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kurmanız yeterli olacaktır.
 
-<video width="320" height="240" controls>
-  <source src="images/Video.mp4" type="video/mp4">
-</video>
+
 ### Kurulum
 1. Adım
 `Setup Dosyasını indiriniz.`
