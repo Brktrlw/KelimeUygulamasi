@@ -77,11 +77,11 @@ Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kur
 <img src="images/image.jpg"></img><br>
 3. Adım
 `Lisans koşullarını kabul edip "Sonraki" butonuna basınız`
-<img src="images/lisans.jpg"></img><br>
+<img src="images/lisans.PNG"></img><br>
 4. Adım
 `Klasik program kurulum dosyası gibi ileri butonuna tıklayarak devam ediniz.`
-<img src="images/lisans2.jpg"></img><br>
-<img src="images/lisans3.jpg"></img><br>
+<img src="images/lisans2.PNG"></img><br>
+<img src="images/lisans3.PNG"></img><br>
 Windows için setup dosyasını indirip klasik bir kurulum dosyası şeklinde kurabilirsiniz.
 PROGRAMI C:/ DİZİNİ ALTINA KURMAZSANIZ WİNDOWS GÜVENLİĞİ SEBEBİ YÜZÜNDEN PROGRAMDA HATALARLA KARŞILAŞABİLİRSİNİZ.
 
