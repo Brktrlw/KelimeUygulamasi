@@ -79,7 +79,7 @@ Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kur
 `Lisans koşullarını kabul edip "Sonraki" butonuna basınız`
 <img src="images/lisans.PNG"></img><br>
 4. Adım
-`Klasik program kurulum dosyası gibi ileri butonuna tıklayarak devam ediniz.`
+`Klasik program kurulum dosyası gibi ileri butonuna tıklayarak devam ediniz.`<br>
 <img src="images/lisans2.PNG"></img><br>
 <img src="images/lisans3.PNG"></img><br>
 Windows için setup dosyasını indirip klasik bir kurulum dosyası şeklinde kurabilirsiniz.
