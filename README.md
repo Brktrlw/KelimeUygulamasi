@@ -70,8 +70,18 @@ Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kur
 
 
 ### Kurulum
-0. -Windows-
-
+1. Adım
+`Setup Dosyasını indiriniz.`
+2. Adım
+`Bu tarz bir uyarı ile karşılaşırsanız "Ek Bilgi" butonuna tıklayıp "Yine de Çalıştır" butonuna basıp çalıştırınız.`
+<img src="images/image.jpg"></img><br>
+3. Adım
+`Lisans koşullarını kabul edip "Sonraki" butonuna basınız`
+<img src="images/lisans.jpg"></img><br>
+4. Adım
+`Klasik program kurulum dosyası gibi ileri butonuna tıklayarak devam ediniz.`
+<img src="images/lisans2.jpg"></img><br>
+<img src="images/lisans3.jpg"></img><br>
 Windows için setup dosyasını indirip klasik bir kurulum dosyası şeklinde kurabilirsiniz.
 PROGRAMI C:/ DİZİNİ ALTINA KURMAZSANIZ WİNDOWS GÜVENLİĞİ SEBEBİ YÜZÜNDEN PROGRAMDA HATALARLA KARŞILAŞABİLİRSİNİZ.
 
@@ -100,7 +110,7 @@ Bu yazılım GNU GENERAL PUBLIC Lisansı ile korunmaktadır. Daha fazla bilgi i�
 E-Mail Adresi:E-Mail - brktrl@protonmail.ch
 
 Proje Linki: [https://github.com/Brktrlw/Word-Of-World](https://github.com/Brktrlw/Word-Of-World)<br>
-Web Site Linki: [http://www.berkay.rf.gd/](http://www.berkay.rf.gd/)-
+Web Site Linki: [http://www.berkay.rf.gd/](http://www.berkay.rf.gd/)
 
 
 
