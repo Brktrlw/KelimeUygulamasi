@@ -28,7 +28,7 @@
 
 
 <details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <summary><h2 style="display: inline-block">Hakkında</h2></summary>
   <ol>
     <li>
       <a href="#Program-Hakkında">Program Hakkında</a>
@@ -52,42 +52,41 @@
 
 ## Program-Hakkında
 
-**Üniversite sınavına hazırlanan öğrencilerin çözdükleri soru,deneme vb gibi verileri veritabanında tutup ,kolaylıkla öğrencinin başarısını ve gidişatını grafiksel bir şekilde izleyip görüntülemesini sağlayan bir programdır.Türkçe ve basit arayüzü ile kullanım zorluğu yaşamayacaksınız.**
+**WoW, bilgisayar başında uzun vakit geçirirken bir yandan ingilizce kelimeleri öğrenmenizi sağlayan bir uygulamadır.Programda bir çok farklı opsiyon bulunup seçeceğiniz koşullara göre size belirli dakikalarda rastgele kelimeleri sorup bilinçaltınızda öğrenmenizi sağlar.**
 
 `BrktrLawliet`,
 `brktrl@protonmail.ch`
-`Öğrenci Takip`
+`Word Of World`
 
 
 ### Ne-İle-Geliştirildi
 
-* [PyQt5](https://pypi.org/project/PyQt5/)
-* [Python3](https://www.python.org)
-* [Matplotlib](https://www.matplotlib.org)
+* [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [SQLite](https://www.sqlite.org/index.html)
 
 ## Başlangıç
 
-Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirmeniz yeterli olacaktır.
+Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kurmanız yeterli olacaktır.
 
 
 ### Kurulum
 0. -Windows-
 
 Windows için setup dosyasını indirip klasik bir kurulum dosyası şeklinde kurabilirsiniz.
-(Henüz Geliştirme Aşamasında olduğu için kurulum dosyası hazırlanmamıştır.)
+PROGRAMI C:/ DİZİNİ ALTINA KURMAZSANIZ WİNDOWS GÜVENLİĞİ SEBEBİ YÜZÜNDEN PROGRAMDA HATALARLA KARŞILAŞABİLİRSİNİZ.
 
 ## Kullanım
 
-Kurma işlemini gerçekleştirdikten sonra soldaki tüm sekmelerin içerisinde yardım menülerini okuyup işlemlerinizi yapınız.Henüz geliştirme aşamasında olduğu için bug'ları bulunabilir.Lütfen bunları bana bildiriniz.
+Kurma işlemini gerçekleştirdikten sonra soldaki tüm sekmelerin içerisinde yardım menülerini okuyup işlemlerinizi yapabilirsiniz.Henüz geliştirme aşamasında olduğu için bug'ları bulunabilir.Lütfen bunları bana bildiriniz.
 
 ## Desteklediği-İşletim-Sistemleri
 * Windows
 
 ## Images
-Programın arayüzünden örnek resimler.
-<img src="images/Capture.JPG"></img><br>
-<img src="images/Capture3.JPG"></img><br>
-<img src="images/Capture2.JPG"></img><br>
+Programın arayüzünden örnek görseller.
+<img src="images/Picture1.PNG"></img><br>
+<img src="images/Picture1.PNG"></img><br>
+<img src="images/Picture1.PNG"></img><br>
 ## lisans
 
 Distributed under the APACHE License. See `LICENSE` for more information.<br>
