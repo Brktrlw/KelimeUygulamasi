@@ -99,8 +99,8 @@ Bu yazılım GNU GENERAL PUBLIC Lisansı ile korunmaktadır. Daha fazla bilgi i�
 
 E-Mail Adresi:E-Mail - brktrl@protonmail.ch
 
-Proje Linki: [https://github.com/Brktrlw/ogrencitakip](https://github.com/Brktrlw/ogrencitakip)<br>
-<!--Web Site Linki: [http://www.riglsable.rf.gd/](http://www.riglsable.rf.gd/)-->
+Proje Linki: [https://github.com/Brktrlw/Word-Of-World](https://github.com/Brktrlw/Word-Of-World)<br>
+Web Site Linki: [http://www.berkay.rf.gd/](http://www.berkay.rf.gd/)-
 
 
 
