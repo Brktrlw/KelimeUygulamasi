@@ -91,9 +91,9 @@ Programın arayüzünden örnek görseller.
 <img src="images/Picture4.PNG"></img><br>
 <img src="images/Picture5.PNG"></img><br>
 ## lisans
+Bu yazılım GNU GENERAL PUBLIC Lisansı ile korunmaktadır. Daha fazla bilgi için `LICENSE` dosyasını okuyunuz.
+<br>Copyright (c) 2021 
 
-Distributed under the APACHE License. See `LICENSE` for more information.<br>
-Copyright (c) 2021 
 
 ## Iletisim
 
