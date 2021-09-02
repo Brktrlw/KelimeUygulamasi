@@ -73,7 +73,7 @@ Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kur
 1. Adım
 `Setup Dosyasını indiriniz.`
 2. Adım
-`Bu tarz bir uyarı ile karşılaşırsanız "Ek Bilgi" butonuna tıklayıp "Yine de Çalıştır" butonuna basıp çalıştırınız.`
+`Bu tarz bir uyarı ile karşılaşırsanız "Ek Bilgi" butonuna tıklayıp "Yine de Çalıştır" butonuna basıp çalıştırınız.`<br>
 <img src="images/image.jpg"></img><br>
 3. Adım
 `Lisans koşullarını kabul edip "Sonraki" butonuna basınız`
