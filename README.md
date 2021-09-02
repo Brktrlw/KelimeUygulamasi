@@ -82,8 +82,6 @@ Kurulumda Windows işletim sistemleri için sadece setup dosyasını indirip kur
 `Klasik program kurulum dosyası gibi ileri butonuna tıklayarak devam ediniz.`<br>
 <img src="images/lisans2.PNG"></img><br>
 <img src="images/lisans3.PNG"></img><br>
-Windows için setup dosyasını indirip klasik bir kurulum dosyası şeklinde kurabilirsiniz.
-PROGRAMI C:/ DİZİNİ ALTINA KURMAZSANIZ WİNDOWS GÜVENLİĞİ SEBEBİ YÜZÜNDEN PROGRAMDA HATALARLA KARŞILAŞABİLİRSİNİZ.
 
 ## Kullanım
 
