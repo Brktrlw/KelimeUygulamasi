@@ -85,8 +85,10 @@ Kurma işlemini gerçekleştirdikten sonra soldaki tüm sekmelerin içerisinde y
 ## Görseller
 Programın arayüzünden örnek görseller.
 <img src="images/Picture1.PNG"></img><br>
-<img src="images/Picture1.PNG"></img><br>
-<img src="images/Picture1.PNG"></img><br>
+<img src="images/Picture2.PNG"></img><br>
+<img src="images/Picture3.PNG"></img><br>
+<img src="images/Picture4.PNG"></img><br>
+<img src="images/Picture5.PNG"></img><br>
 ## lisans
 
 Distributed under the APACHE License. See `LICENSE` for more information.<br>
