@@ -34,16 +34,18 @@ namespace IngilizceKelime
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuGradientPanel1 = new Bunifu.UI.WinForms.BunifuGradientPanel();
+            this.lbl_sentence = new Bunifu.UI.WinForms.BunifuLabel();
+            this.listBox_sencente = new System.Windows.Forms.ListBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
             this.Private_ENG = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbl_1_2 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -60,10 +62,10 @@ namespace IngilizceKelime
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuGradientPanel5 = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.btnKelimeEkle = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.txt_ingKelimeEkle = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.txt_trKelime = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.txt_trKelime = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.txt_ingKelimeEkle = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuGradientPanel1.SuspendLayout();
             this.bunifuGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
@@ -82,6 +84,8 @@ namespace IngilizceKelime
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuGradientPanel1.BorderRadius = 1;
+            this.bunifuGradientPanel1.Controls.Add(this.lbl_sentence);
+            this.bunifuGradientPanel1.Controls.Add(this.listBox_sencente);
             this.bunifuGradientPanel1.Controls.Add(this.listBox3);
             this.bunifuGradientPanel1.Controls.Add(this.Private_ENG);
             this.bunifuGradientPanel1.Controls.Add(this.lbl_1_2);
@@ -96,10 +100,10 @@ namespace IngilizceKelime
             this.bunifuGradientPanel1.Controls.Add(this.bunifuPictureBox2);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuPictureBox1);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuGradientPanel5);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuLabel2);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuLabel1);
             this.bunifuGradientPanel1.Controls.Add(this.txt_ingKelimeEkle);
             this.bunifuGradientPanel1.Controls.Add(this.txt_trKelime);
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuLabel2);
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuLabel1);
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(92)))), ((int)(((byte)(188)))));
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.DeepPink;
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DodgerBlue;
@@ -109,6 +113,33 @@ namespace IngilizceKelime
             this.bunifuGradientPanel1.Quality = 10;
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(602, 190);
             this.bunifuGradientPanel1.TabIndex = 0;
+            // 
+            // lbl_sentence
+            // 
+            this.lbl_sentence.AllowParentOverrides = false;
+            this.lbl_sentence.AutoEllipsis = false;
+            this.lbl_sentence.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lbl_sentence.CursorType = System.Windows.Forms.Cursors.Default;
+            this.lbl_sentence.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.lbl_sentence.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lbl_sentence.Location = new System.Drawing.Point(17, 85);
+            this.lbl_sentence.Name = "lbl_sentence";
+            this.lbl_sentence.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbl_sentence.Size = new System.Drawing.Size(78, 24);
+            this.lbl_sentence.TabIndex = 113;
+            this.lbl_sentence.Text = "sentence";
+            this.lbl_sentence.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbl_sentence.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lbl_sentence.Visible = false;
+            // 
+            // listBox_sencente
+            // 
+            this.listBox_sencente.FormattingEnabled = true;
+            this.listBox_sencente.Location = new System.Drawing.Point(3, 60);
+            this.listBox_sencente.Name = "listBox_sencente";
+            this.listBox_sencente.Size = new System.Drawing.Size(10, 17);
+            this.listBox_sencente.TabIndex = 112;
+            this.listBox_sencente.Visible = false;
             // 
             // listBox3
             // 
@@ -254,10 +285,10 @@ namespace IngilizceKelime
             this.lbl_eng.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbl_eng.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.lbl_eng.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(43)))), ((int)(((byte)(60)))));
-            this.lbl_eng.Location = new System.Drawing.Point(113, 25);
+            this.lbl_eng.Location = new System.Drawing.Point(59, 25);
             this.lbl_eng.Name = "lbl_eng";
             this.lbl_eng.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbl_eng.Size = new System.Drawing.Size(357, 29);
+            this.lbl_eng.Size = new System.Drawing.Size(470, 29);
             this.lbl_eng.TabIndex = 79;
             this.lbl_eng.Text = "Hello";
             this.lbl_eng.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -434,7 +465,7 @@ namespace IngilizceKelime
             this.lbl_ipucu.CursorType = System.Windows.Forms.Cursors.Default;
             this.lbl_ipucu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.lbl_ipucu.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbl_ipucu.Location = new System.Drawing.Point(478, 65);
+            this.lbl_ipucu.Location = new System.Drawing.Point(482, 63);
             this.lbl_ipucu.Name = "lbl_ipucu";
             this.lbl_ipucu.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbl_ipucu.Size = new System.Drawing.Size(47, 24);
@@ -586,117 +617,6 @@ namespace IngilizceKelime
             this.btnKelimeEkle.UseDefaultRadiusAndThickness = true;
             this.btnKelimeEkle.Click += new System.EventHandler(this.btnKelimeEkle_Click);
             // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel2.ForeColor = System.Drawing.Color.Gold;
-            this.bunifuLabel2.Location = new System.Drawing.Point(178, 60);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(251, 20);
-            this.bunifuLabel2.TabIndex = 104;
-            this.bunifuLabel2.Text = "Kelimesinin İngilizcesini Yazınız";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.Gold;
-            this.bunifuLabel1.Location = new System.Drawing.Point(178, 60);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(239, 20);
-            this.bunifuLabel1.TabIndex = 103;
-            this.bunifuLabel1.Text = "Kelimesinin Türkçesini Yazınız";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // txt_trKelime
-            // 
-            this.txt_trKelime.AcceptsReturn = false;
-            this.txt_trKelime.AcceptsTab = false;
-            this.txt_trKelime.AnimationSpeed = 200;
-            this.txt_trKelime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txt_trKelime.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txt_trKelime.BackColor = System.Drawing.Color.Transparent;
-            this.txt_trKelime.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_trKelime.BackgroundImage")));
-            this.txt_trKelime.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.txt_trKelime.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txt_trKelime.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.txt_trKelime.BorderColorIdle = System.Drawing.Color.Silver;
-            this.txt_trKelime.BorderRadius = 35;
-            this.txt_trKelime.BorderThickness = 1;
-            this.txt_trKelime.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txt_trKelime.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_trKelime.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_trKelime.DefaultText = "";
-            this.txt_trKelime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(105)))));
-            this.txt_trKelime.ForeColor = System.Drawing.Color.White;
-            this.txt_trKelime.HideSelection = true;
-            this.txt_trKelime.IconLeft = null;
-            this.txt_trKelime.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_trKelime.IconPadding = 7;
-            this.txt_trKelime.IconRight = ((System.Drawing.Image)(resources.GetObject("txt_trKelime.IconRight")));
-            this.txt_trKelime.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_trKelime.Lines = new string[0];
-            this.txt_trKelime.Location = new System.Drawing.Point(149, 85);
-            this.txt_trKelime.MaxLength = 32767;
-            this.txt_trKelime.MinimumSize = new System.Drawing.Size(291, 45);
-            this.txt_trKelime.Modified = false;
-            this.txt_trKelime.Multiline = false;
-            this.txt_trKelime.Name = "txt_trKelime";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_trKelime.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txt_trKelime.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_trKelime.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Silver;
-            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(105)))));
-            stateProperties8.ForeColor = System.Drawing.Color.White;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txt_trKelime.OnIdleState = stateProperties8;
-            this.txt_trKelime.Padding = new System.Windows.Forms.Padding(3);
-            this.txt_trKelime.PasswordChar = '\0';
-            this.txt_trKelime.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txt_trKelime.PlaceholderText = "Kelimenin türkçesini yazınız";
-            this.txt_trKelime.ReadOnly = false;
-            this.txt_trKelime.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txt_trKelime.SelectedText = "";
-            this.txt_trKelime.SelectionLength = 0;
-            this.txt_trKelime.SelectionStart = 0;
-            this.txt_trKelime.ShortcutsEnabled = true;
-            this.txt_trKelime.Size = new System.Drawing.Size(291, 45);
-            this.txt_trKelime.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.txt_trKelime.TabIndex = 29;
-            this.txt_trKelime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txt_trKelime.TextMarginBottom = 0;
-            this.txt_trKelime.TextMarginLeft = 3;
-            this.txt_trKelime.TextMarginTop = 0;
-            this.txt_trKelime.TextPlaceholder = "Kelimenin türkçesini yazınız";
-            this.txt_trKelime.UseSystemPasswordChar = false;
-            this.txt_trKelime.WordWrap = true;
-
-            this.txt_trKelime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_trKelime_KeyPress);
-            // 
             // txt_ingKelimeEkle
             // 
             this.txt_ingKelimeEkle.AcceptsReturn = false;
@@ -773,6 +693,118 @@ namespace IngilizceKelime
             this.txt_ingKelimeEkle.WordWrap = true;
             this.txt_ingKelimeEkle.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_ingKelimeEkle_KeyPress);
             // 
+            // txt_trKelime
+            // 
+            this.txt_trKelime.AcceptsReturn = false;
+            this.txt_trKelime.AcceptsTab = false;
+            this.txt_trKelime.AnimationSpeed = 200;
+            this.txt_trKelime.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txt_trKelime.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txt_trKelime.BackColor = System.Drawing.Color.Transparent;
+            this.txt_trKelime.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txt_trKelime.BackgroundImage")));
+            this.txt_trKelime.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.txt_trKelime.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txt_trKelime.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.txt_trKelime.BorderColorIdle = System.Drawing.Color.Silver;
+            this.txt_trKelime.BorderRadius = 35;
+            this.txt_trKelime.BorderThickness = 1;
+            this.txt_trKelime.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txt_trKelime.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_trKelime.DefaultFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_trKelime.DefaultText = "";
+            this.txt_trKelime.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(105)))));
+            this.txt_trKelime.ForeColor = System.Drawing.Color.White;
+            this.txt_trKelime.HideSelection = true;
+            this.txt_trKelime.IconLeft = null;
+            this.txt_trKelime.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_trKelime.IconPadding = 7;
+            this.txt_trKelime.IconRight = ((System.Drawing.Image)(resources.GetObject("txt_trKelime.IconRight")));
+            this.txt_trKelime.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_trKelime.Lines = new string[0];
+            this.txt_trKelime.Location = new System.Drawing.Point(149, 85);
+            this.txt_trKelime.MaxLength = 32767;
+            this.txt_trKelime.MinimumSize = new System.Drawing.Size(291, 45);
+            this.txt_trKelime.Modified = false;
+            this.txt_trKelime.Multiline = false;
+            this.txt_trKelime.Name = "txt_trKelime";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_trKelime.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txt_trKelime.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_trKelime.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(75)))), ((int)(((byte)(105)))));
+            stateProperties8.ForeColor = System.Drawing.Color.White;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txt_trKelime.OnIdleState = stateProperties8;
+            this.txt_trKelime.Padding = new System.Windows.Forms.Padding(3);
+            this.txt_trKelime.PasswordChar = '\0';
+            this.txt_trKelime.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txt_trKelime.PlaceholderText = "Kelimenin türkçesini yazınız";
+            this.txt_trKelime.ReadOnly = false;
+            this.txt_trKelime.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.txt_trKelime.SelectedText = "";
+            this.txt_trKelime.SelectionLength = 0;
+            this.txt_trKelime.SelectionStart = 0;
+            this.txt_trKelime.ShortcutsEnabled = true;
+            this.txt_trKelime.Size = new System.Drawing.Size(291, 45);
+            this.txt_trKelime.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.txt_trKelime.TabIndex = 29;
+            this.txt_trKelime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_trKelime.TextMarginBottom = 0;
+            this.txt_trKelime.TextMarginLeft = 3;
+            this.txt_trKelime.TextMarginTop = 0;
+            this.txt_trKelime.TextPlaceholder = "Kelimenin türkçesini yazınız";
+            this.txt_trKelime.UseSystemPasswordChar = false;
+            this.txt_trKelime.WordWrap = true;
+            this.txt_trKelime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_trKelime_KeyPress);
+            // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.AutoSize = false;
+            this.bunifuLabel2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel2.ForeColor = System.Drawing.Color.Gold;
+            this.bunifuLabel2.Location = new System.Drawing.Point(76, 60);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(453, 21);
+            this.bunifuLabel2.TabIndex = 104;
+            this.bunifuLabel2.Text = "Kelimesinin İngilizcesini Yazınız";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.AutoSize = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.Gold;
+            this.bunifuLabel1.Location = new System.Drawing.Point(149, 60);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(291, 21);
+            this.bunifuLabel1.TabIndex = 103;
+            this.bunifuLabel1.Text = "Kelimesinin Türkçesini Yazınız";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // askQuestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -806,7 +838,6 @@ namespace IngilizceKelime
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
         private Bunifu.UI.WinForms.BunifuLabel lbl_ipucu;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuLabel Private_TR;
         private Bunifu.UI.WinForms.BunifuLabel Private_Index;
         private System.Windows.Forms.ListBox listBox1;
@@ -816,5 +847,8 @@ namespace IngilizceKelime
         private Bunifu.UI.WinForms.BunifuLabel lbl_1_2;
         private Bunifu.UI.WinForms.BunifuLabel Private_ENG;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.ListBox listBox_sencente;
+        private Bunifu.UI.WinForms.BunifuLabel lbl_sentence;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
     }
 }

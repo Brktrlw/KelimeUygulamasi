@@ -38,7 +38,7 @@ namespace IngilizceKelime
             
             this.Show();
         }
-        public void ErrorMessageDialog(string Message) 
+        public void ErrorMessageDialog(string Message,string sentence="") 
         {
             int isTrueOrFalse = DatabaseManager.isTrueNotif();
             if (isTrueOrFalse == 1)
@@ -47,7 +47,7 @@ namespace IngilizceKelime
                 player.Play();
             }
             bunifuLabel1.Text = Message;
-
+            bunifuLabel2.Text = sentence;
             this.ShowDialog();
         }
         protected override void OnDeactivate(EventArgs e)

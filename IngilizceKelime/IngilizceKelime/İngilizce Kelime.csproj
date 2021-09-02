@@ -243,6 +243,12 @@
       <DependentUpon>SuccessMessageBox.cs</DependentUpon>
     </Compile>
     <Compile Include="UpdateManager.cs" />
+    <Compile Include="updateWordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateWordForm.Designer.cs">
+      <DependentUpon>updateWordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="whenOpeningManager.cs" />
     <EmbeddedResource Include="AddGroupForm.resx">
       <DependentUpon>AddGroupForm.cs</DependentUpon>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SuccessMessageBox.resx">
       <DependentUpon>SuccessMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateWordForm.resx">
+      <DependentUpon>updateWordForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

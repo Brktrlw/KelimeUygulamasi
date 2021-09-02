@@ -1266,6 +1266,9 @@
         lA8gRRlTrhasBFj/Yy1Q9T+AVDODqqo/9p+3tv7Yf976/wEHQoiwp6yohQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="lbl_sentence.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 14pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 100, 0); text-align: left; }</value>
+  </data>
   <data name="Private_ENG.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 14pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 100, 0); text-align: left; }</value>
   </data>
@@ -2415,12 +2418,6 @@
         m/AqsnkPTsZR9YQGPjrLgXobio6ovFLSzXh4OgvU3tXmi4uPz4uBfyYqFmPCWx+rAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 215, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 215, 0); text-align: left; }</value>
-  </data>
   <data name="txt_ingKelimeEkle.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAASMAAAAtCAYAAADlXQ3pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -2525,5 +2522,11 @@
         lVUZGDtLBIztEGASPFbbW+lFSU9x6TXxv+42Ex7r8au+wycPye+LYjAYDAaDwWAw5orF8hcKRslge4Rf
         ngAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Microsoft Sans Serif'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 215, 0); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Microsoft Sans Serif'; font-size: 12pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 215, 0); text-align: center; }</value>
   </data>
 </root>

@@ -15,14 +15,22 @@ namespace IngilizceKelime
         public static void updateTables()           //Tüm kelime tablolarının güncellendiği method
         {       
             baglanti.Open();
-            string sqlWordTable = "SELECT ID,Kelime,Anlamı,Doğrular,Yanlışlar,Türİsmi,Durum FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID";                              
+            string sqlWordTable = "SELECT ID,Kelime,Anlamı,Doğrular,Yanlışlar,[İngilizce Cümle],Türİsmi,Durum FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID";                              
             SQLiteDataAdapter da = new SQLiteDataAdapter(sqlWordTable, baglanti);
             DataTable dt = new DataTable();
             da.Fill(dt);
-            form.table_words1.DataSource = dt;
-            form.table_words2.DataSource = dt;
-            form.table_words3.DataSource = dt;
+
             form.table_words4.DataSource = dt;
+            form.table_words2.DataSource = dt;
+
+            string sqlWordTable2 = "SELECT ID,Kelime,Anlamı,[İngilizce Cümle],Türİsmi,Durum FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID";
+            SQLiteDataAdapter da3 = new SQLiteDataAdapter(sqlWordTable2, baglanti);
+            DataTable dt3 = new DataTable();
+            da3.Fill(dt3);
+
+            form.table_words1.DataSource = dt3;
+            
+            form.table_words3.DataSource = dt3;
 
             string sqlWordTableOfGroups = "SELECT * FROM Türler";
             SQLiteDataAdapter da2 = new SQLiteDataAdapter(sqlWordTableOfGroups, baglanti);
@@ -58,15 +66,16 @@ namespace IngilizceKelime
 
         public static void updateTools() 
         {
-            form.cbox_gruops.Items.Clear();
+            //form.cbox_gruops.Items.Clear();
             form.cbox_groups2.Items.Clear();
             form.cbox_educType.Items.Clear();
-
             form.cbox_liste1.Items.Clear();
+            form.cbox_liste0.Items.Clear();
             form.cbox_liste2.Items.Clear();
-            string text = "Tüm kelimeler";
+            string text = "Tüm Kelimeler";
             form.cbox_liste1.Items.Add(text);
             form.cbox_liste2.Items.Add(text);
+            form.cbox_liste0.Items.Add(text);
 
             form.cbox_educType.Items.Add("Tüm grup kelimelerini sor");
 
@@ -77,11 +86,12 @@ namespace IngilizceKelime
             while (dr.Read())
             {
                 string turAdi = Convert.ToString(dr[0]);
-                form.cbox_gruops.Items.Add(turAdi);
+                //form.cbox_gruops.Items.Add(turAdi);
                 form.cbox_groups2.Items.Add(turAdi);
                 form.cbox_educType.Items.Add(turAdi);
                 form.cbox_liste1.Items.Add(turAdi);
                 form.cbox_liste2.Items.Add(turAdi);
+                form.cbox_liste0.Items.Add(turAdi);
             }
 
 
@@ -90,18 +100,74 @@ namespace IngilizceKelime
 
         public static void updateSourceOfTable(string textTable,Bunifu.UI.WinForms.BunifuDataGridView nameOfdatagrid) 
         {
-            if (textTable == "Tüm kelimeler")
+            baglanti.Open();
+            if (textTable == "Tüm Kelimeler")
             {
 
             }
-            else { 
+            else {
+                if (nameOfdatagrid == form.table_words3)
+                {
+                    
+                    string sqlCode = $"SELECT ID,Kelime,Anlamı,Türİsmi,Durum,[İngilizce Cümle] FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID where Türİsmi='{textTable}'";
+                    SQLiteDataAdapter da = new SQLiteDataAdapter(sqlCode, baglanti);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    nameOfdatagrid.DataSource = dt;
+                    baglanti.Close();
+                }
+                else { 
                 
-                string sqlCode = $"SELECT ID,Kelime,Anlamı,Doğrular,Yanlışlar,Türİsmi,Durum FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID where Türİsmi='{textTable}'";
-                SQLiteDataAdapter da = new SQLiteDataAdapter(sqlCode, baglanti);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                nameOfdatagrid.DataSource = dt;
-                baglanti.Close();
+                    string sqlCode = $"SELECT ID,Kelime,Anlamı,Doğrular,Yanlışlar,[İngilizce Cümle],Türİsmi,Durum FROM Kelimeler INNER JOIN Türler ON Kelimeler.Tür=Türler.TurID where Türİsmi='{textTable}'";
+                    SQLiteDataAdapter da = new SQLiteDataAdapter(sqlCode, baglanti);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    nameOfdatagrid.DataSource = dt;
+                    baglanti.Close();
+                }
+            }
+        }
+
+        public static void updateTableAfterProcses(string cboxText,Bunifu.UI.WinForms.BunifuButton.BunifuButton btnName,Bunifu.UI.WinForms.BunifuDropdown cboxName) 
+        {
+            if (btnName == form.btn_removeWord || btnName == form.btn_resetWord)
+            {
+                if (cboxText == "Tüm Kelimeler")
+                {
+                    updateTables();
+                }
+                else
+                {
+                    updateTables();
+                    updateSourceOfTable(cboxText, form.table_words3);
+                    cboxName.Text = cboxText;
+                }
+            }
+            else if (btnName == form.btn_bilgileriGetir)
+            {
+                if (cboxText == "Tüm Kelimeler")
+                {
+                    updateTables();
+                }
+                else
+                {
+                    updateTables();
+                    updateSourceOfTable(cboxText, form.table_words2);
+                    cboxName.Text = cboxText;
+                }
+            }
+            else if (btnName == form.btn_setRight || btnName == form.btn_setWrong) 
+            {
+                if (cboxText == "Tüm Kelimeler")
+                {
+                    updateTables();
+                }
+                else
+                {
+                    updateTables();
+                    updateSourceOfTable(cboxText, form.table_words4);
+                    cboxName.Text = cboxText;
+                }
             }
         }
 

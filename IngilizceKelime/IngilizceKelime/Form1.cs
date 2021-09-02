@@ -13,6 +13,7 @@ using WECPOFLogic;
 
 namespace IngilizceKelime
 {
+
     public partial class Form1 : Form
     {
         public static SuccessMessageBox successMessageBox = new SuccessMessageBox();
@@ -32,8 +33,12 @@ namespace IngilizceKelime
             table_words1.AllowUserToAddRows = false;
             table_words3.AllowUserToAddRows = false;
             table_words4.AllowUserToAddRows = false;
+
+            
+
             cbox_liste1.SelectedIndex = 0;
             cbox_liste2.SelectedIndex = 0;
+            cbox_liste0.SelectedIndex = 0;
             try_table.Rows.Add("Hello", "Merhaba");
             bool checkName=SettingsManager.checkNickName();
             MyIcon.MouseDoubleClick += new MouseEventHandler(MyIcon_MouseDoubleClick);
@@ -45,7 +50,7 @@ namespace IngilizceKelime
             }
             MyIcon.Icon = new Icon(@"icon.ico");
             UpdateAll();
-          
+            settingTable();
 
         }
 
@@ -69,14 +74,30 @@ namespace IngilizceKelime
             }
             else
             {
-                DatabaseManager.addWord(txt_ingKelimeEkle.Text, txt_trKelimeEkle.Text, cbox_groups2.Text);
+                DatabaseManager.addWord(txt_ingKelimeEkle.Text, txt_trKelimeEkle.Text, cbox_groups2.Text,txt_eng_cumle.Text);
                 successMessageBox.SuccessMessage("Kelime başarıyla eklenmiştir.");
                 txt_ingKelimeEkle.Text = String.Empty;
                 txt_trKelimeEkle.Text = String.Empty;
+                txt_eng_cumle.Text = String.Empty;
                 UpdateAll();
             }
+
             
         }
+        public void settingTable() 
+        {
+            DataGridViewColumn column = table_words1.Columns[0];
+            DataGridViewColumn column1 = table_words2.Columns[0];
+            DataGridViewColumn column2 = table_words3.Columns[0];
+            DataGridViewColumn column3 = table_words4.Columns[0];
+
+            column.Width = 40;
+            column1.Width = 40;
+            column2.Width = 40;
+            column3.Width = 40;
+
+        }
+
         private void btn_bilgileriGetir_Click(object sender, EventArgs e)
         {
             //tablodan verileri textboxlara getirdiğimiz fonksiyon
@@ -85,56 +106,22 @@ namespace IngilizceKelime
                 errorMessageBox.ErrorMessage("Lütfen önce tablodan kelime seçiniz.");
             }
             else
-            {
-                private_TXT_ID.Text = table_words2.SelectedRows[0].Cells[0].Value + string.Empty;
-                txt_ingKelime.Text = table_words2.SelectedRows[0].Cells[1].Value + string.Empty;
-                txt_trKelime.Text = table_words2.SelectedRows[0].Cells[2].Value + string.Empty;
-                cbox_gruops.Text = table_words2.SelectedRows[0].Cells[5].Value + string.Empty;
-                txt_ingKelime.ReadOnly = false;
-                txt_trKelime.ReadOnly = false;
+            {    
+                updateWordForm frmUpdateForm = new updateWordForm();
+                frmUpdateForm.txt_ingKelime2.Text = table_words2.SelectedRows[0].Cells[1].Value + string.Empty;
+                frmUpdateForm.txt_trKelime2.Text = table_words2.SelectedRows[0].Cells[2].Value + string.Empty;
+                frmUpdateForm.llb_wordOfID.Text = table_words2.SelectedRows[0].Cells[0].Value + string.Empty;
+                frmUpdateForm.cbox_gruops2.Text = table_words2.SelectedRows[0].Cells[6].Value + string.Empty;
+                frmUpdateForm.txt_eng_cumle.Text = table_words2.SelectedRows[0].Cells[5].Value + string.Empty;
+                UpdateManager.updateTools();
+                frmUpdateForm.Show();
+          
+
             }
         }
-        private void btn_updateWord_Click(object sender, EventArgs e)
-        {
-            //kelime güncellediğimiz fonksiyon
-            if (private_TXT_ID.Text == "")
-            {
-                errorMessageBox.ErrorMessage("Tablodan kelime seçip bilgileri getir butonuna basınız.");
-            }
-            else
-            {
-                if (txt_ingKelime.Text == "" | txt_trKelime.Text == "")
-                {
-                    errorMessageBox.ErrorMessage("Güncellemek için boş bırakılan yerleri doldurmalısınız.");
-                }
-                else if (txt_ingKelime.Text.Trim().Replace(" ","").All(c => Char.IsLetter(c)) == false || txt_trKelime.Text.Trim().Replace(" ", "").All(c => Char.IsLetter(c)) == false)
-                {
-                    errorMessageBox.ErrorMessage("Özel karakter kullanmayınız.Sadece harfleri kullanınız.");
-                }
-                else
-                {
-                    DatabaseManager.updateWord(txt_ingKelime.Text, txt_trKelime.Text, private_TXT_ID.Text,cbox_gruops.Text);
-                    successMessageBox.SuccessMessage("Güncelleme işlemi başarıyla gerçekleştirilmiştir.");
-                    UpdateAll();
-                    txt_ingKelime.ReadOnly = true;
-                    txt_trKelime.ReadOnly = true;
-                    private_TXT_ID.Text = String.Empty;
-                    txt_ingKelime.Text = String.Empty;
-                    txt_trKelime.Text = String.Empty;
-                    cbox_gruops.Text = null;
-                }
-            }
-        }
-        private void btn_clearTextBox_Click(object sender, EventArgs e)
-        {
-            //textboxları bosalttıgımız fonksiyon
-            txt_ingKelime.ReadOnly = true;
-            txt_trKelime.ReadOnly = true;
-            cbox_gruops.Text = null;
-            private_TXT_ID.Text = String.Empty;
-            txt_ingKelime.Text = String.Empty;
-            txt_trKelime.Text = String.Empty;
-        }
+    
+
+        
         private void btn_removeWord_Click(object sender, EventArgs e)
         {
             //kelime sildiğimiz fonksiyon
@@ -143,14 +130,15 @@ namespace IngilizceKelime
                 errorMessageBox.ErrorMessage("Silmek istediğiniz kelimeyi tablodan seçiniz");
             }
             else { 
-            string wordForMessageBox = table_words3.SelectedRows[0].Cells[1].Value + string.Empty;
-            string wordID = table_words3.SelectedRows[0].Cells[0].Value + string.Empty;
-            wordForMessageBox += " Kelimesini silmek istediğinizden emin misiniz?";
+                string wordForMessageBox = table_words3.SelectedRows[0].Cells[1].Value + string.Empty;
+                string wordID = table_words3.SelectedRows[0].Cells[0].Value + string.Empty;
+                wordForMessageBox += " Kelimesini silmek istediğinizden emin misiniz?";
                 if (MetroFramework.MetroMessageBox.Show(this, "", wordForMessageBox, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     DatabaseManager.removeWord(wordID);
                     successMessageBox.SuccessMessage("Kelime başarıyla silinmiştir.");
-                    UpdateAll();
+                    //UpdateAll();
+                    UpdateManager.updateTableAfterProcses(cbox_liste1.Text, btn_removeWord, cbox_liste1);
                 }
             }
         }
@@ -161,9 +149,13 @@ namespace IngilizceKelime
             {
                 errorMessageBox.ErrorMessage("Lütfen öğretici modunu seçiniz.");
             }
-            else if (cbox_minutes.Text == null) 
+            else if (cbox_minutes.Text == null)
             {
                 errorMessageBox.ErrorMessage("Lütfen dakikayı seçiniz.");
+            }
+            else if (cbox_askType.Text == null) 
+            {
+                errorMessageBox.ErrorMessage("Lütfen soru tipini seçin");
             }
             else
             {
@@ -174,15 +166,16 @@ namespace IngilizceKelime
 
                     if (switch_btn.Checked == false) // TÜM GRUP KELİMELERİNİ SOR || TÜM KELİMELERİ SOR
                     {
-                        
+
                         if (countOfWords == 0)
                         {
                             errorMessageBox.ErrorMessage("Kayıtlı hiçbir kelime bulunmamaktadır.");
                         }
-                        
-                        else { 
+
+                        else
+                        {
                             askQuestion ask = new askQuestion();
-                            ask.Baslat(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000);
+                            ask.Baslat(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_askType.Text);
                             showNotif();
                             successMessageBox.SuccessMessageDialog("Programı kapatmak için sağ alttan ikona sağ tıklayınız.");
 
@@ -196,9 +189,10 @@ namespace IngilizceKelime
                         {
                             errorMessageBox.ErrorMessage("Seçtiğiniz kriterlerde kelime bulunmamaktadır.");
                         }
-                        else { 
+                        else
+                        {
                             askQuestion ask = new askQuestion();
-                            ask.Baslat2(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000);
+                            ask.Baslat2(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_askType.Text);
                             showNotif();
                             successMessageBox.SuccessMessageDialog("Programı kapatmak için sağ alttan ikona sağ tıklayınız.");
 
@@ -207,7 +201,7 @@ namespace IngilizceKelime
                 }
                 else
                 {                              // TÜM GRUP KELİMELERİNİ SORMA || TÜM KELİMELERİ SOR
-                    int countOfWords =DatabaseManager.checkNumberOfWordsSQL(cbox_educType.Text);
+                    int countOfWords = DatabaseManager.checkNumberOfWordsSQL(cbox_educType.Text);
 
                     if (switch_btn.Checked == false)
                     {
@@ -215,9 +209,10 @@ namespace IngilizceKelime
                         {
                             errorMessageBox.ErrorMessage("Kayıtlı hiçbir kelime bulunmamaktadır.");
                         }
-                        else {
+                        else
+                        {
                             askQuestion ask = new askQuestion();
-                            ask.Baslat3(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_educType.Text);
+                            ask.Baslat3(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_educType.Text, cbox_askType.Text);
                             showNotif();
                             successMessageBox.SuccessMessageDialog("Programı kapatmak için sağ alttan ikona sağ tıklayınız.");
 
@@ -230,9 +225,10 @@ namespace IngilizceKelime
                         {
                             errorMessageBox.ErrorMessage("Seçtiğiniz kriterlerde kelime bulunmamaktadır.");
                         }
-                        else { 
+                        else
+                        {
                             askQuestion ask = new askQuestion();
-                            ask.Baslat4(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_educType.Text);
+                            ask.Baslat4(Convert.ToInt32(cbox_minutes.Text) * 60 * 1000, cbox_educType.Text, cbox_askType.Text);
                             showNotif();
                             successMessageBox.SuccessMessageDialog("Programı kapatmak için sağ alttan ikona sağ tıklayınız.");
                         }
@@ -257,7 +253,9 @@ namespace IngilizceKelime
                 {
                     DatabaseManager.resetWord(wordID);
                     successMessageBox.SuccessMessage("Kelime başarıyla sıfırlanmıştır.");
-                    UpdateAll();
+                    //UpdateAll();
+                    UpdateManager.updateTableAfterProcses(cbox_liste1.Text, btn_resetWord, cbox_liste1);
+
                 }
             }
         }
@@ -282,7 +280,8 @@ namespace IngilizceKelime
             string wordID = table_words4.SelectedRows[0].Cells[0].Value + string.Empty;
             DatabaseManager.updateWordsState(wordID, "Öğrenildi");
             successMessageBox.SuccessMessage("Kelime başarıyla güncellenmiştir");
-            UpdateAll();
+                //UpdateAll();
+                UpdateManager.updateTableAfterProcses(cbox_liste2.Text, btn_setRight, cbox_liste2);
             }
         }
         private void btn_setWrong_Click(object sender, EventArgs e)
@@ -296,7 +295,8 @@ namespace IngilizceKelime
                 string wordID = table_words4.SelectedRows[0].Cells[0].Value + string.Empty;
                 DatabaseManager.updateWordsState(wordID, "Öğrenilmedi");
                 successMessageBox.SuccessMessage("Kelime başarıyla güncellenmiştir");
-                UpdateAll();
+                //UpdateAll();
+                UpdateManager.updateTableAfterProcses(cbox_liste2.Text, btn_setWrong, cbox_liste2);
             }
         }
         private void btn_saveSettings_Click(object sender, EventArgs e)
@@ -517,7 +517,7 @@ namespace IngilizceKelime
         // -------------------------------------------------- TEXT CHANGE FONKSİYONLARI --------------------------------------------------------------- //
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++ Önemli FONKSİYONLAR ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
-        public void UpdateAll() 
+        public static void UpdateAll() 
         { //tüm güncelleme işlemlerinin çalıştırıldığı fonksiyon
             UpdateManager.updateHomePage();
             UpdateManager.updateTables();
@@ -620,7 +620,7 @@ namespace IngilizceKelime
 
         private void cbox_liste2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbox_liste2.Text == "Tüm kelimeler")
+            if (cbox_liste2.Text == "Tüm Kelimeler")
             {
                 UpdateManager.updateTables();
             }
@@ -632,7 +632,7 @@ namespace IngilizceKelime
 
         private void cbox_liste1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbox_liste1.Text == "Tüm kelimeler")
+            if (cbox_liste1.Text == "Tüm Kelimeler")
             {
                 UpdateManager.updateTables();
             }
@@ -724,6 +724,8 @@ namespace IngilizceKelime
             txt_ingKelimeEkle.Text = String.Empty;
             txt_trKelimeEkle.Text = String.Empty;
             cbox_groups2.Text = null;
+            txt_eng_cumle.Text = String.Empty;
+           
         }
         
         private void btn_menu_berkay_Click(object sender, EventArgs e)
@@ -800,6 +802,42 @@ namespace IngilizceKelime
                 e.Handled = true;
         }
 
+        private void bunifuCheckBox1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
+        {
+            if (bunifuCheckBox1.Checked == true)
+            {
+                txt_eng_cumle.Visible = true;
+                bunifuGradientPanel5.Location = new Point(44, 291);
+                bunifuGradientPanel40.Location = new Point(243, 291);
+                bunifuGradientPanel4.Height = 380;
+                bunifuGradientPanel31.Visible = false;
+          
+            }
+            else 
+            {
+                txt_eng_cumle.Visible = false;
+                bunifuGradientPanel5.Location = new Point(44, 240);
+                bunifuGradientPanel40.Location = new Point(243, 242);
+                bunifuGradientPanel31.Visible = true;
+                bunifuGradientPanel4.Height = 307;
+            }
+        }
 
+        private void cbox_liste0_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbox_liste0.Text == "Tüm Kelimeler")
+            {
+                UpdateManager.updateTables();
+            }
+            else
+            {
+                UpdateManager.updateSourceOfTable(cbox_liste0.Text, table_words2);
+            }
+        }
+
+        private void bunifuTextBox3_TextChange(object sender, EventArgs e)
+        {            
+             (table_Groups.DataSource as DataTable).DefaultView.RowFilter = string.Format("Türİsmi LIKE '{0}%'", bunifuTextBox3.Text);
+        }
     }
 }

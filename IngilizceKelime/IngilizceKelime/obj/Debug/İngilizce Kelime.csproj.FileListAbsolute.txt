@@ -304,3 +304,4 @@ C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\
 C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\bin\Debug\System.Data.SQLite.xml
 C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\İngilizce Kelime.csproj.CopyComplete
 C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.DeveloperForm.resources
+C:\Users\Berkay\Documents\C# Projects\IngilizceKelime\IngilizceKelime\obj\Debug\IngilizceKelime.updateWordForm.resources

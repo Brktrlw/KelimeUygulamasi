@@ -40,7 +40,7 @@ namespace IngilizceKelime
                 else { 
                 DatabaseManager.addGroup(txt_nameOfGroup.Text.ToLower().Trim());
                 successMessageBox.SuccessMessage("Grup başarıyla eklenmiştir.");
-                form.UpdateAll();   
+                Form1.UpdateAll();   
                 }
             }
         }

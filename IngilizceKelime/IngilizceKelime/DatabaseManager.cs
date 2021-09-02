@@ -14,14 +14,14 @@ namespace IngilizceKelime
         
         public static string veritabaniyolu = "Data source=Database.db";
         public static SQLiteConnection baglanti = new SQLiteConnection(veritabaniyolu);
-
-        public static void updateWord(string Key,string Value,string wordID,string TurIsmi)    //veritabanındaki kelimeleri güncelleyen method
+        
+        public static void updateWord(string Key,string Value,string wordID,string TurIsmi,string ingSentence="")    //veritabanındaki kelimeleri güncelleyen method
         {  
             baglanti.Open();
             string sqlCode2 = $"SELECT TurID FROM Türler where Türİsmi='{TurIsmi}'";
             SQLiteCommand cmd2 = new SQLiteCommand(sqlCode2, baglanti);
             string TurID = Convert.ToString(cmd2.ExecuteScalar());
-            string sqlCode = $"UPDATE Kelimeler set Kelime='{Key}', Anlamı='{Value}',Tür='{TurID}' where ID='{wordID}'";
+            string sqlCode = $"UPDATE Kelimeler set Kelime='{Key}', Anlamı='{Value}',Tür='{TurID}',[İngilizce Cümle]='{ingSentence}' where ID='{wordID}'";
             SQLiteCommand cmd = new SQLiteCommand(sqlCode, baglanti);
             cmd.ExecuteNonQuery();
             baglanti.Close();
@@ -34,13 +34,13 @@ namespace IngilizceKelime
             cmd.ExecuteNonQuery();
             baglanti.Close();
         }
-        public static void addWord(string wordKey,string wordValue,string wordType)         //veritabanına yeni kelime ekleyen method
+        public static void addWord(string wordKey,string wordValue,string wordType,string ingSentence="")         //veritabanına yeni kelime ekleyen method
         {
             baglanti.Open();
             string typeCheck = $"SELECT TurID FROM Türler where Türİsmi='{wordType}'";
             SQLiteCommand cmd2 = new SQLiteCommand(typeCheck, baglanti);
             string ID = Convert.ToString(cmd2.ExecuteScalar());
-            string sqlCode = $"INSERT INTO Kelimeler ('Kelime','Anlamı','Yanlışlar','Doğrular','Tür','Durum') VALUES ('{wordKey.Trim()}','{wordValue.Trim()}','0','0','{ID}','Öğrenilmedi')";
+            string sqlCode = $"INSERT INTO Kelimeler ('Kelime','Anlamı','Yanlışlar','Doğrular','Tür','Durum','İngilizce Cümle') VALUES ('{wordKey.Trim()}','{wordValue.Trim()}','0','0','{ID}','Öğrenilmedi','{ingSentence}')";
             SQLiteCommand cmd = new SQLiteCommand(sqlCode, baglanti);
             cmd.ExecuteNonQuery();
             baglanti.Close();
