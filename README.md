@@ -1,7 +1,5 @@
 # README
 
-[https://www.notion.so/images/icon.ico](https://www.notion.so/images/icon.ico)
-
 ### Word Of World v2.2
 
 İngilizce Kelime Uygulaması 
@@ -13,7 +11,7 @@
 </address>
 </p>`
 
-[video.mp4](images/video.mp4)
+[Video.mp4](images/Video.mp4)
 
 - 
 
